@@ -14,12 +14,6 @@ python-lambda-local -h
 ```
 
 ## For the time being, we'll be passing event.json while utilising the sample Lamda code. 
->###### Make sure the 3rd party libraries used in the AWS Lambda function can be imported.
-
-```
-pip install rx==1.6.1
-```
-
 ## To run the test lambda_handler
 ```
 python-lambda-local -f handler -t 5 lambda_handler.py event.json
