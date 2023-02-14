@@ -1,26 +1,26 @@
 # python-lambda-local
 >###### A way to test lambda locally without using AWS Console
 
-## First we will need the library to work with
+## To begin, we will require a library to use.
 
 ```
 pip install python-lambda-local
 ```
 
-## you can pass many arguments with this library to get the details use this.
+## Using this library and a lot of arguments will help you get run Lambda.
 
 ```
 python-lambda-local -h
 ```
 
-## For now we will be using the sample lamda code and will be passing even.json
+## For the time being, we'll be passing event.json while utilising the sample Lamda code. 
 >###### Make sure the 3rd party libraries used in the AWS Lambda function can be imported.
 
 ```
 pip install rx==1.6.1
 ```
 
-## Command to run this test
+## To run the test lambda_handler
 ```
 python-lambda-local -f handler -t 5 lambda_handler.py event.json
 ```
