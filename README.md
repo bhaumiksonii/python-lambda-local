@@ -24,3 +24,6 @@ pip install rx==1.6.1
 ```
 python-lambda-local -f handler -t 5 lambda_handler.py event.json
 ```
+## Resource
+
+https://pypi.org/project/python-lambda-local/
